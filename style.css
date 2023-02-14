@@ -48,6 +48,9 @@ body {
   }
 }
 
+img{
+  width: 100%;
+}
 .menu-icon {
   width: 24px;
   height: auto;
@@ -876,7 +879,7 @@ ul li {
   }
 
   .card-image:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
   }
 
   .my-design:nth-child(even) .card-image {
