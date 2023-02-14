@@ -7,29 +7,35 @@ const data = [
     image: 'images/one.png',
     about:
       'Awesome Books is a website that allow users to create a book with title and author name and add to their books list on the page.',
+    live: 'https://abenatenkorang.github.io/AwesomeBooks-ES6/',
+    source: 'https://github.com/abenaTenkorang/AwesomeBooks-ES6',
   },
   {
     id: 'project-2',
-    title: 'Multi-Post-Stories',
-    canopy: 'Canopy',
+    title: 'To Do List',
+    canopy: 'User',
     card_list: ['html', 'css', 'javascript'],
     image: 'images/two.png',
     about:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required..',
+      'To-do list" is a tool that helps organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
+    live: 'https://abenaTenkorang.github.io/Todo-list/dist',
+    source: 'https://github.com/abenaTenkorang/Todo-list',
   },
   {
     id: 'project-3',
-    title: 'Facebook 360',
-    canopy: 'Canopy',
-    card_list: ['html', 'css', 'javascript'],
+    title: 'Leaderboard',
+    canopy: 'User',
+    card_list: ['html', 'css', 'javascript', 'API'],
     image: 'images/first-work1.png',
     about:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required..',
+      'leaderboard is a website that displays scores submitted by different people. It also allows users to submit their own score',
+    live: 'https://abenaTenkorang.github.io/leaderboard/dist/',
+    source: 'https://github.com/abenaTenkorang/leaderboard',
   },
   {
     id: 'project-4',
     title: 'Uber Navigation',
-    canopy: 'Canopy',
+    canopy: 'User',
     card_list: ['html', 'css', 'javascript'],
     image: 'images/four.png',
     about:
@@ -68,8 +74,8 @@ const myHtmlArticle = (myObj) => {
             </ul>
 
             <div class="button">
-            <a href="#"  onclick="openPopup()">
-                <button type="submit" class="card-link">
+            <a href="#">
+                <button type="submit" class="card-link btn-popup" id=${myObj.id}>
                 See Project
                 </button>
             </a>
@@ -87,83 +93,88 @@ data.forEach((elem) => {
   cardHolder.insertAdjacentHTML('beforeend', myHtmlArticle(elem));
 });
 
+const portfolioContainer = document.querySelector('#portfolio');
+const showModalBtns = portfolioContainer.querySelectorAll('.btn-popup');
+showModalBtns.forEach((btn) => {
+  btn.addEventListener('click', (e) => {
+    const btnUi = e.target;
+    const obj = data.find((item) => item.id === btnUi.id);
+    if (obj) {
+      openPopup(obj);
+    }
+  });
+});
+
 // Popup section//
-function openPopup() {
+function openPopup(obj) {
   document.querySelector('#popup-section').innerHTML += `<div class="popup-container">
     <div class="popup" id="popup"> 
         <div id="desktop-popup" class="">
             <div class="info-header popup-header">
-                <h2 class="tonic">Uber Navigation
+                <h2 class="tonic">${obj.title}
                 </h2>
                 <img src="./images/Icon.png" alt="popup-x icon" class="popup-header-image" onclick="closePopup()">
             </div>
             <div class="card-content">
             <div class="card-info">
-              <p class="card-info-item-canopy">CANOPY</p>
+              <p class="card-info-item-canopy">${obj.canopy}</p>
               <img class="circle-img" src="./images/circle.png" alt="Circle">
               <p class="card-info-item">Front End Dev</p>
               <img class="circle-img" src="./images/circle.png" alt="Circle">
               <p class="card-info-item">2022</p>
             </div>
             <div id="desktop-popup" class="popup-img1">
-                <img src="./images/Snapshoot Portfolio.png" alt="popup image 1">
+                <img src=${obj.image} alt="popup image 1">
             </div>
 
             <div id="mobile-popup" class="popup-img2">
-                <img src="./images/phone.png" alt="popup image 1">
+                <img src=${obj.image} alt="popup image 1">
             </div>
             <div class="popup-text">
                 <div class="popup-body">
                     <p class="desk-hidden">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea
+                      ${obj.about}  
                     </p>
                     <p class="mobile-hidden">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent
+                    ${obj.about}
                     </p>
                 </div>
                 <div id ="mobile-popup-langs" class="popup-lang">
                     <div id="lang">
                         <ul class="langs">
-                            <li>html</li>
-                            <li>css</li>
-                            <li>javascript</li>
-                            <li>github</li>
-                            <li>ruby</li>
-                            <li>bootstrap</li>
+                            ${obj.card_list.map((elem) => `<li class="card-list-tags">${elem}</li>`).join('')}
                         </ul>
                     </div>
                     <div class="pop-button-div">
                      
-                            <button type="submit" class="see-project pop-button">
-                            See Live
-                            <img src="./images/g.png" alt="">
-                            </button>
+                    <a href ='${obj.live}' type="button" class="see-project pop-button">
+                    See Live
+                    <img src="./images/g.png" alt=""see live icon">
+                  </a>
                       
-                        <button type="submit" class="see-project pop-button">
-                            See Source
-                            <img src="./images/h.png" alt="">
-                            </button>
+                  <a href ='${obj.source}' type="button" class="see-project pop-button">
+                  See Source
+                   <img src="./images/h.png" alt="">
+                </a>
                     </div>
                 </div>
                 <div id ="mobile-popup-langs"class="popup-langs">
                     <div id="lang" style= "height: 24px;">
                         <ul class="langs">
-                            <li>html</li>
-                            <li>css</li>
-                            <li>javascript</li>
+                          ${obj.card_list.map((elem) => `<li class="card-list-tags">${elem}</li>`).join('')} 
                         </ul>
                     </div>
                     <div class="pop-button-div">
                        
-                            <button type="submit" class="see-project pop-button">
+                          <a href ='${obj.live}' type="button" class="see-project pop-button">
                             See Live
-                            <img src="./images/g.png" alt="">
-                            </button>
+                            <img src="./images/g.png" alt=""see live icon">
+                          </a>
                        
-                          <button type="submit" class="see-project pop-button">
-                            See Source
+                          <a href ='${obj.source}' type="button" class="see-project pop-button">
+                           See Source
                             <img src="./images/h.png" alt="">
-                           </button>
+                         </a>
                     </div>
                     
                 </div>
@@ -174,13 +185,10 @@ function openPopup() {
 </div>`;
 
   document.getElementById('popup-section').style.display = 'block';
-  document.getElementById('popup').style.filter = 'blur(7px)';
 }
-openPopup();
 
 function closePopup() {
   document.getElementById('popup-section').style.display = 'none';
-  document.getElementById('popup').style.filter = 'blur(0px)';
 }
 closePopup();
 
