@@ -146,7 +146,7 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
- We would like to thank all our fellow micronauts.
+ I would like to thank all our fellow micronauts.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
