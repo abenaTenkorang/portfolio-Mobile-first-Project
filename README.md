@@ -84,7 +84,7 @@ If you installed git you can clone the code to your machine, or download a ZIP o
 
 [Download the ZIP from this location](https://github.com/abenaTenkorang/Portfolio/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
 
-- Once the files are on your machine, open the _Awesome-Books_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation
+- Once the files are on your machine, open the _Portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation
 
 ### Setup
 
