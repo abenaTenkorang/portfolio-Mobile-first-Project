@@ -100,6 +100,7 @@ showModalBtns.forEach((btn) => {
     const btnUi = e.target;
     const obj = data.find((item) => item.id === btnUi.id);
     if (obj) {
+      // eslint-disable-next-line no-use-before-define
       openPopup(obj);
     }
   });
