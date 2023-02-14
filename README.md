@@ -22,7 +22,7 @@
 
 # 📖 Portfolio <a name="about-project"></a>
 
-**Portfolio** is a website that showcase some of my projects.
+**Portfolio** is a website built to showcase materials that exemplifies my skills, qualifications, education, training and experiences.
 
 ## 🛠 Built With <a name="built-with"></a>
 
