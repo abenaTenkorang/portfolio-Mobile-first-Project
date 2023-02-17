@@ -14,7 +14,7 @@ const data = [
     id: 'project-2',
     title: 'To Do List',
     canopy: 'User',
-    card_list: ['html', 'css', 'javascript'],
+    card_list: ['css', 'javascript'],
     image: 'images/two.png',
     about:
       'To-do list" is a tool that helps organize your day. It simply lists the things that you need to do and allows you to mark them as complete.',
@@ -34,12 +34,14 @@ const data = [
   },
   {
     id: 'project-4',
-    title: 'Uber Navigation',
+    title: 'the Movies',
     canopy: 'User',
-    card_list: ['html', 'css', 'javascript'],
+    card_list: ['css', 'javascript', 'API'],
     image: 'images/four.png',
     about:
-      "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+      'the Movies is an online entertainment streaming source for TV shows, movies. All data is preserved thanks to the external tvmaze API service.',
+    live: 'https://abenatenkorang.github.io/JavaScript-Capstone/dist/',
+    source: 'https://github.com/abenaTenkorang/JavaScript-Capstone',
   },
 ];
 
