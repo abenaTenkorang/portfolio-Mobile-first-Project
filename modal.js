@@ -43,6 +43,17 @@ const data = [
     live: 'https://abenatenkorang.github.io/JavaScript-Capstone/dist/',
     source: 'https://github.com/abenaTenkorang/JavaScript-Capstone',
   },
+  {
+    id: 'project-5',
+    title: 'BookStore',
+    canopy: 'User',
+    card_list: ['Redux', 'React', 'JavaScript'],
+    image: 'images/five.png',
+    about:
+      'This is an MVP version of awesome_books that allows users to "Display a list of books", "Add a book" and "Remove a selected book".',
+    live: 'https://book-store-wolh.onrender.com/',
+    source: 'https://github.com/abenaTenkorang/book_store',
+  },
 ];
 
 const myHtmlArticle = (myObj) => {
