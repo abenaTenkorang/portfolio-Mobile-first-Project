@@ -1,37 +1,59 @@
+<!-- TABLE OF CONTENTS -->
 
-- microverseinc
+# 📗 Table of Contents
 
-## 📝 License
-![](https://img.shields.io/badge/Microverse-blueviolet)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Future Features](#future-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Author](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
 
 ## Project Name
 > Portfolio
 
 
+=======
+
+<!-- PROJECT DESCRIPTION -->
 
 
-## Getting started
-Step 1:
-Clone this repo locally using git in the command line and the following command
+# 📖 Portfolio <a name="about-project"></a>
 
-```
-git clone https://github.com/abenaTenkorang/portfolio.git
-```
+**Portfolio** is a website built to show my skills and experience as a soft developer. It covers majority of my professional and technical projects.
 
-Alternatively, you can just download the complete zip file and extract the folder in your directory
+## 🛠 Built With <a name="built-with"></a>
 
-Step 2:
-Copy All Project files and run using VSCODE. HTML can be viewed in browser.
+### Tech Stack <a name="tech-stack"></a>
 
 
-To get a local copy up and running follow these simple example steps.
-Clone the repo named "portfolio"
 
-## Live Demo Link
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Javascript</li>
+  </ul>
+</details>
 
-Access the the online version of my application with this link
-[Live Demo](https://abenatenkorang.github.io/Portfolio/)
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://github.com/">Github</a></li>
+  </ul>
+</details>
 
+<!-- Features -->
 
 - Editor : Visual studio code
 
@@ -43,6 +65,73 @@ Access the the online version of my application with this link
   - [ ] JavaScript
 
 ## Authors
+=======
+### Key Features <a name="key-features"></a>
+
+- **Dynamically display of cards**
+- **About section**
+- **Save data to local storage**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+  ** Implement some UX improvements: 
+  - Add the "More" button on the page, including transitions and/or animation.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link]( https://abenatenkorang.github.io/Portfolio/)
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+
+If you dont have [node](https://node.org) install on your computer, Install node js from [https://nodejs.org/en](https://nodejs.org/en/) as your JavaScript Runtime Engine
+
+If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
+
+[Download the ZIP from this location](https://github.com/abenaTenkorang/Portfolio/archive/refs/heads/main.zip), or run the following [git](https://git-scm.com/downloads) command to clone the files to your machine:
+
+- Once the files are on your machine, open the _Portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/), and follow the steps in Installation
+
+### Setup
+
+1. Clone this repository to your desired folder:
+
+    ```sh
+      git clone https://github.com/abenaTenkorang/Portfolio.git
+    ```
+
+2. Install Node Modules
+
+   ```sh
+   npm install
+   ```
+   
+3. Open the `index.html` file in the project directory with your favorite browser
+
+### Deployment
+<a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+ 
+ 
+## 👥 Author
+<a name="authors"></a>
+
 
 👤 **Abigail Gyamfuaa Boateng**
 
@@ -50,29 +139,44 @@ Access the the online version of my application with this link
 - Twitter: [@Abi1_boateng](https://twitter.com/Abi1_boateng)
 - LinkedIn: [Abigail Boateng](https://www.linkedin.com/in/abigail-boateng-345395141/)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+ 
 Contributions, issues, and feature requests are welcome!
 
+Feel free to check the [issues page](../../issues/).
 
-**Collaborator**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 **Haliljon Juraboev**
+<!-- SUPPORT -->
 
-- GitHub: [@githubhaliljon](https://github.com/haliljon)
-- Twitter: [@twitterhaliljon1](https://twitter.com/haliljon1)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juraboev-haliljon)
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project give me a star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+ I would like to thank all our fellow micronauts.
 
 
-Feel free to check the [issues page](../../issues/](https://github.com/abenaTenkorang/portfolio-project/issues).
 
-## Show your support
+<!-- LICENSE -->
 
-Give a ⭐️ if you like this project!
+## 📝 License <a name="license"></a>
 
-## Acknowledgments
+This project is [MIT](https://github.com/abenaTenkorang/MIT/blob/main/MIT.md) licensed.
 
-This project is [MIT](./LICENSE) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
