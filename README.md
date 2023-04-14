@@ -18,7 +18,14 @@
 - [📝 License](#license)
 
 
+## Project Name
+> Portfolio
+
+
+=======
+
 <!-- PROJECT DESCRIPTION -->
+
 
 # 📖 Portfolio <a name="about-project"></a>
 
@@ -48,6 +55,17 @@
 
 <!-- Features -->
 
+- Editor : Visual studio code
+
+
+## Built With
+- Languages 
+  - [ ] HTML
+  - [ ] CSS
+  - [ ] JavaScript
+
+## Authors
+=======
 ### Key Features <a name="key-features"></a>
 
 - **Dynamically display of cards**
@@ -114,6 +132,7 @@ You can deploy this project using [Github Pages](https://docs.github.com/en/page
 ## 👥 Author
 <a name="authors"></a>
 
+
 👤 **Abigail Gyamfuaa Boateng**
 
 - GitHub: [@AbenaTenkorang](https://github.com/abenaTenkorang)
@@ -148,8 +167,6 @@ If you like this project give me a star.
 
  I would like to thank all our fellow micronauts.
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
