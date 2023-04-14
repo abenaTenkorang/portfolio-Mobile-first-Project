@@ -21,9 +21,6 @@
 ## Project Name
 > Portfolio
 
-
-=======
-
 <!-- PROJECT DESCRIPTION -->
 
 
@@ -65,7 +62,7 @@
   - [ ] JavaScript
 
 ## Authors
-=======
+
 ### Key Features <a name="key-features"></a>
 
 - **Dynamically display of cards**
@@ -166,7 +163,6 @@ If you like this project give me a star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
  I would like to thank all our fellow micronauts.
-
 
 
 <!-- LICENSE -->
