@@ -48,9 +48,10 @@ body {
   }
 }
 
-img{
+img {
   width: 100%;
 }
+
 .menu-icon {
   width: 24px;
   height: auto;
@@ -143,16 +144,16 @@ img{
 }
 
 @keyframes slidein {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-
-    to {
-      margin-left: 0%;
-      width: 100%;
-    }
+  from {
+    margin-left: 100%;
+    width: 300%;
   }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 .header-paragraph {
   font-family: 'Poppins', sans-serif;

@@ -217,7 +217,6 @@ form.addEventListener('submit', (e) => {
     ermsg.style.display = 'block';
     e.preventDefault();
   }
-
 });
 
 // local storage
@@ -233,6 +232,3 @@ form.addEventListener('input', () => {
 username.value = localStorage.getItem('name-input');
 email.value = localStorage.getItem('email-input');
 message.value = localStorage.getItem('msg-input');
-=======
-});
-
