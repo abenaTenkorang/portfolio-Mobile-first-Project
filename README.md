@@ -54,13 +54,6 @@
 
 - Editor : Visual studio code
 
-
-## Built With
-- Languages 
-  - [ ] HTML
-  - [ ] CSS
-  - [ ] JavaScript
-
 ## Authors
 
 ### Key Features <a name="key-features"></a>
